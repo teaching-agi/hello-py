@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                echo 'hi skoop'
             }
         }
         stage('Test') {
@@ -15,6 +16,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+                echo 'bye agi'
             }
         }
     }
