@@ -6,6 +6,8 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo 'hi skoop'
+                cd python-deploy
+                python hello.py
             }
         }
         stage('Test') {
